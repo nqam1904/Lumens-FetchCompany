@@ -4,7 +4,7 @@ import './index.scss'
 const Header = () => {
    return (
       <div className='header'>
-         <img src={images.icon} className="icon" alt='image' />
+         <img type="image" src={images.icon} className="icon" alt='photo' />
          <div className='header_content'>
             <p className='header_title'>Silver Tier</p>
             <span className='subtitle'>In Silver Tier, every $1 in rental fee paid, you get 2 coins to redeem exclusive rewards.</span>

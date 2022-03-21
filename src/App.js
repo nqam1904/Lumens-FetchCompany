@@ -1,6 +1,6 @@
 import './App.scss';
 import { images } from './assets';
-import { Header, Item, Available } from './components';
+import { Header, Item, Available, Naviagation } from './components';
 const data = [
   {
     id: 0,
@@ -84,9 +84,9 @@ const App = () => {
           </div>
         </div>
         {/* Food and Beverage */}
-        <div className='section'>
+        <div className='section item_last'>
           <p className='title'>Food and Beverage</p>
-          <div className='item_section'>
+          <div className='item_section '>
             {data2.map(item => (
               <Item
                 key={item.id}
@@ -97,6 +97,7 @@ const App = () => {
             ))}
           </div>
         </div>
+        <Naviagation />
       </div>
     </div>
   );

@@ -7,12 +7,12 @@ const Available = () => {
          <p className='avail_title'>Available Coin balance</p>
          <p className='avail_coin'>340</p>
          <div className='proccessbar'>
-            <div class="proccessbar_child"  ></div>
+            <div className="proccessbar_child"  ></div>
          </div>
          <div className='content'>You have paid rental fee for $1,200. Pay more $800 to achieve Gold Tier.</div>
          <div className='view'>
             <p className='view_tier'>View tier benefits</p>
-            <img src={images.chevron} className="view_icon" />
+            <img src={images.chevron} type="image" alt="photo" className="view_icon" />
          </div>
          <div className='view_button'>
             <button className='button'>My Coupons</button>
