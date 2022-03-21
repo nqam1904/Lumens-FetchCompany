@@ -1,0 +1,47 @@
+.app {
+   background: #e5e5e5;
+   // height: 100vh;
+}
+.main {
+   width: 428px;
+   background: #ffffff;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   box-shadow: rgb(0 35 149 / 7%) 0px 17px 48px,
+      rgb(0 35 149 / 5%) 0px 5.125px 14.4706px,
+      rgb(0 35 149 / 4%) 0px 2.12866px 6.01034px,
+      rgb(0 35 149 / 2%) 0px 0.769896px 2.17382px;
+}
+.section_index {
+   margin-top: 274px;
+}
+.section {
+   padding: 24px;
+}
+.title {
+   font-family: "Hellix";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 24px;
+   color: #171725;
+}
+.item_section {
+   overflow-x: scroll;
+   overflow-y: hidden;
+   display: flex;
+   flex-wrap: nowrap;
+}
+.item_section {
+   margin-bottom: 20px;
+   width: 100%;
+   -webkit-overflow-scrolling: touch;
+   &::-webkit-scrollbar {
+      display: none;
+   }
+}
+::-webkit-scrollbar {
+   width: 0px;
+   height: 0px;
+}

@@ -1,0 +1,116 @@
+.available {
+   padding: 24px;
+   height: 416px;
+   background: url("../../assets/images/background.png");
+   background-size: contain;
+   transition: background-color 1s;
+   background: #ffffff;
+   border: 1px solid #fafafb;
+   box-sizing: border-box;
+   box-shadow: 0px 12px 18px rgba(23, 23, 37, 0.04);
+   border-radius: 8px;
+   position: absolute;
+   left: 16px;
+   right: 16px;
+   top: 252px;
+}
+.avail_title {
+   font-family: "Hellix";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 24px;
+   color: #b5b5be;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 8px 0px;
+}
+.avail_coin {
+   font-family: "Hellix";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 56px;
+   letter-spacing: -0.5px;
+   color: #171725;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   margin: 8px 0px;
+}
+.proccessbar {
+   height: 5px;
+   border-radius: 2.5px;
+   margin-bottom: 24px;
+   background: #e2e2ea;
+}
+.proccessbar_child {
+   height: 5px;
+   background: #0062ff;
+   width: 80%;
+}
+.content {
+   font-family: "Hellix";
+   text-align: left;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: -0.005em;
+   color: #92929d;
+}
+.view {
+   position: relative;
+   margin-top: 16px;
+}
+.view_icon {
+   position: absolute;
+   top: 0;
+   right: 210px;
+   width: 24px;
+   height: 24px;
+}
+.view_tier {
+   font-family: "Hellix";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: -0.005em;
+   color: #0062ff;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 0px 0px;
+}
+.button {
+   width: 295px;
+   height: 60px;
+   background: #171725;
+   border-radius: 4px;
+   border: 0;
+   padding: 0px;
+   font-family: "Hellix";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 24px;
+   margin-top: 42px;
+   color: #ffffff;
+}
+.view_button {
+   display: flex;
+   justify-content: center;
+}
+.update {
+   margin-top: 16px;
+   font-family: "Hellix";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: -0.5px;
+   color: #b5b5be;
+   text-align: center;
+}
