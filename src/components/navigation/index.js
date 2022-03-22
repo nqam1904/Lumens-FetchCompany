@@ -24,7 +24,7 @@ const Naviagation = () => {
       <div className='navigation'>
          {item.map(item => (
             <div className='navigation_item' key={item.id}>
-               <img type="image" alt='photo' src={item.image} className="navigation_img" />
+               <img type="image" alt='' src={item.image} className="navigation_img" />
             </div>
          ))}
       </div>

@@ -1,8 +1,6 @@
 .available {
    padding: 24px;
    height: 416px;
-   background: url("../../assets/images/background.png");
-   background-size: contain;
    transition: background-color 1s;
    background: #ffffff;
    border: 1px solid #fafafb;
@@ -13,6 +11,16 @@
    left: 16px;
    right: 16px;
    top: 252px;
+}
+.background_image {
+   position: absolute;
+   left: 16px;
+   right: 16px;
+   top: 0px;
+   height: 378px;
+   background: url("../../assets/images/background.png");
+   background-size: cover;
+   background-position: center;
 }
 .avail_title {
    font-family: "Hellix";
