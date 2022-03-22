@@ -26,17 +26,16 @@
    font-size: 18px;
    line-height: 24px;
    color: #171725;
+   margin-bottom: 26px;
 }
 .item_section {
    overflow-x: scroll;
    overflow-y: hidden;
    display: flex;
-   flex-wrap: nowrap;
 }
 .item_section {
    margin-bottom: 20px;
    width: 100%;
-   -webkit-overflow-scrolling: touch;
    &::-webkit-scrollbar {
       display: none;
    }

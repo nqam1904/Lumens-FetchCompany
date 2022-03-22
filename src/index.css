@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+   font-family: "Hellix";
+   src: local("Hellix Medium"), local("Hellix-Medium"),
+      /* url("./assets/fonts/Hellix-Medium.woff2") format("woff2"),
+      url("./assets/fonts/Hellix-Medium.woff") format("woff"),
+      url("./assets/fonts/Hellix-Medium.ttf") format("truetype"), */
+         /* url("./assets/fonts/Hellix-Bold.woff2") format("woff2"),
+      url("./assets/fonts/Hellix-Bold.woff") format("woff"),
+      url("./assets/fonts/Hellix-Bold.ttf") format("truetype"), */
+         url("./assets/fonts/Hellix-Regular.woff2") format("woff2"),
+      url("./assets/fonts/Hellix-Regular.woff") format("woff"),
+      url("./assets/fonts/Hellix-Regular.ttf") format("truetype");
+   font-style: normal;
+   font-weight: 300;
 }
